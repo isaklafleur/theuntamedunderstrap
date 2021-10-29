@@ -8,7 +8,8 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
-
+!wp-content/themes/theuntamed-understrap-child/css/
+!wp-content/themes/theuntamed-understrap-child/js/
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
 wp-content/themes/*
