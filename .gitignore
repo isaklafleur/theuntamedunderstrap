@@ -70,5 +70,4 @@ Thumbs.db
 !composer.json
 
 # track these themes
-!wp-content/themes/understrap/
 !wp-content/themes/theuntamed-understrap-child
