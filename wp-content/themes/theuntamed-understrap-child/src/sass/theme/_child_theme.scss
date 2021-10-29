@@ -1,0 +1,52 @@
+///////////////////////////////////////////////////
+/*
+BUTTONS
+*/
+
+.btn-outline-primary:hover {
+  color: $primary !important;
+  background-color: $secondary !important;
+  text-decoration: none;
+}
+
+.btn-outline-secondary:hover {
+  color: $secondary !important;
+  background-color: $primary !important;
+  text-decoration: none;
+}
+
+///////////////////////////////////////////////////
+
+/*
+UL
+*/
+
+ul {
+  list-style-type: square;
+}
+
+///////////////////////////////////////////////////
+
+/*
+NAVBAR
+*/
+
+.primarynavlinks {
+  color: $secondary;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}

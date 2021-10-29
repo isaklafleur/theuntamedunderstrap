@@ -3,19 +3,8 @@
   font-family: "theuntamed_011";
   src: url("../fonts/THEUNTAMED_011/THEUNTAMED011-Regular.woff") format("woff");
   src: url("../fonts/THEUNTAMED_011/THEUNTAMED011-Regular.woff2") format("woff2");
-  font-weight: 300;
   font-display: swap;
-  font-size: 15px;
 }
-/*
-@font-face {
-    font-family: 'theuntamed_011';
-    src: url('../fonts/THEUNTAMED_011/THEUNTAMED011-Bold.woff') format('woff');
-    src: url('../fonts/THEUNTAMED_011/THEUNTAMED011-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-display: swap;
-}
-*/
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -76,9 +65,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #1e1e1e;
   text-align: left;
-  background-color: #fafafa;
+  background-color: #f3f1ee;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -176,8 +165,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: black;
-  text-decoration: underline;
+  color: none;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -377,11 +366,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h3, .h3 {
@@ -491,7 +480,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fafafa;
+  background-color: #f3f1ee;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1665,7 +1654,7 @@ pre code {
 .table, .wp-block-table table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #1e1e1e;
 }
 .table th, .wp-block-table table th,
 .table td,
@@ -1713,7 +1702,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: #1e1e1e;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2086,7 +2075,7 @@ select.form-control:focus::-ms-value, .widget_categories select:focus::-ms-value
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #212529;
+  color: #1e1e1e;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2441,7 +2430,7 @@ textarea.form-control {
 .btn, .woocommerce-info a.button, .woocommerce-notices-wrapper .woocommerce-message a.button {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #1e1e1e;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2450,8 +2439,8 @@ textarea.form-control {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 0.9375rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2462,7 +2451,7 @@ textarea.form-control {
   }
 }
 .btn:hover, .woocommerce-info a.button:hover, .woocommerce-notices-wrapper .woocommerce-message a.button:hover {
-  color: #212529;
+  color: #1e1e1e;
   text-decoration: none;
 }
 .btn:focus, .woocommerce-info a.button:focus, .woocommerce-notices-wrapper .woocommerce-message a.button:focus, .btn.focus, .woocommerce-info a.focus.button, .woocommerce-notices-wrapper .woocommerce-message a.focus.button {
@@ -2930,11 +2919,11 @@ fieldset:disabled .woocommerce-notices-wrapper .woocommerce-message a.button,
   text-decoration: none;
 }
 .btn-link:hover {
-  color: black;
-  text-decoration: underline;
+  color: none;
+  text-decoration: none;
 }
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3032,7 +3021,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #1e1e1e;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3291,8 +3280,8 @@ input[type=button].btn-block {
 }
 
 .dropdown-toggle-split {
-  padding-right: 0.5625rem;
-  padding-left: 0.5625rem;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropright .dropdown-toggle-split::after {
   margin-left: 0;
@@ -3881,13 +3870,13 @@ input[type=button].btn-block {
   outline: 0;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fafafa, 0 0 0 0.2rem rgba(30, 30, 30, 0.25);
+  box-shadow: 0 0 0 1px #f3f1ee, 0 0 0 0.2rem rgba(30, 30, 30, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fafafa, 0 0 0 0.2rem rgba(30, 30, 30, 0.25);
+  box-shadow: 0 0 0 1px #f3f1ee, 0 0 0 0.2rem rgba(30, 30, 30, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fafafa, 0 0 0 0.2rem rgba(30, 30, 30, 0.25);
+  box-shadow: 0 0 0 1px #f3f1ee, 0 0 0 0.2rem rgba(30, 30, 30, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -4061,8 +4050,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fafafa;
-  border-color: #dee2e6 #dee2e6 #fafafa;
+  background-color: #f3f1ee;
+  border-color: #dee2e6 #dee2e6 #f3f1ee;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4749,7 +4738,7 @@ input[type=button].btn-block {
 }
 .page-link:hover {
   z-index: 2;
-  color: black;
+  color: none;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -5182,7 +5171,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: #212529;
+  color: #1e1e1e;
   background-color: #e9ecef;
 }
 
@@ -5968,7 +5957,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #212529;
+  color: #1e1e1e;
 }
 
 .carousel {
@@ -7766,27 +7755,27 @@ button.bg-dark:focus {
 }
 
 .m-5 {
-  margin: 3rem !important;
+  margin: 2rem !important;
 }
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 2rem !important;
 }
 
 .mr-5,
 .mx-5 {
-  margin-right: 3rem !important;
+  margin-right: 2rem !important;
 }
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .ml-5,
 .mx-5 {
-  margin-left: 3rem !important;
+  margin-left: 2rem !important;
 }
 
 .p-0 {
@@ -7910,27 +7899,27 @@ button.bg-dark:focus {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 2rem !important;
 }
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 2rem !important;
 }
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: 2rem !important;
 }
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 2rem !important;
 }
 
 .m-n1 {
@@ -8030,27 +8019,27 @@ button.bg-dark:focus {
 }
 
 .m-n5 {
-  margin: -3rem !important;
+  margin: -2rem !important;
 }
 
 .mt-n5,
 .my-n5 {
-  margin-top: -3rem !important;
+  margin-top: -2rem !important;
 }
 
 .mr-n5,
 .mx-n5 {
-  margin-right: -3rem !important;
+  margin-right: -2rem !important;
 }
 
 .mb-n5,
 .my-n5 {
-  margin-bottom: -3rem !important;
+  margin-bottom: -2rem !important;
 }
 
 .ml-n5,
 .mx-n5 {
-  margin-left: -3rem !important;
+  margin-left: -2rem !important;
 }
 
 .m-auto {
@@ -8201,27 +8190,27 @@ button.bg-dark:focus {
   }
 
   .m-sm-5 {
-    margin: 3rem !important;
+    margin: 2rem !important;
   }
 
   .mt-sm-5,
 .my-sm-5 {
-    margin-top: 3rem !important;
+    margin-top: 2rem !important;
   }
 
   .mr-sm-5,
 .mx-sm-5 {
-    margin-right: 3rem !important;
+    margin-right: 2rem !important;
   }
 
   .mb-sm-5,
 .my-sm-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .ml-sm-5,
 .mx-sm-5 {
-    margin-left: 3rem !important;
+    margin-left: 2rem !important;
   }
 
   .p-sm-0 {
@@ -8345,27 +8334,27 @@ button.bg-dark:focus {
   }
 
   .p-sm-5 {
-    padding: 3rem !important;
+    padding: 2rem !important;
   }
 
   .pt-sm-5,
 .py-sm-5 {
-    padding-top: 3rem !important;
+    padding-top: 2rem !important;
   }
 
   .pr-sm-5,
 .px-sm-5 {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
 
   .pb-sm-5,
 .py-sm-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2rem !important;
   }
 
   .pl-sm-5,
 .px-sm-5 {
-    padding-left: 3rem !important;
+    padding-left: 2rem !important;
   }
 
   .m-sm-n1 {
@@ -8465,27 +8454,27 @@ button.bg-dark:focus {
   }
 
   .m-sm-n5 {
-    margin: -3rem !important;
+    margin: -2rem !important;
   }
 
   .mt-sm-n5,
 .my-sm-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2rem !important;
   }
 
   .mr-sm-n5,
 .mx-sm-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2rem !important;
   }
 
   .mb-sm-n5,
 .my-sm-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2rem !important;
   }
 
   .ml-sm-n5,
 .mx-sm-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2rem !important;
   }
 
   .m-sm-auto {
@@ -8634,27 +8623,27 @@ button.bg-dark:focus {
   }
 
   .m-md-5 {
-    margin: 3rem !important;
+    margin: 2rem !important;
   }
 
   .mt-md-5,
 .my-md-5 {
-    margin-top: 3rem !important;
+    margin-top: 2rem !important;
   }
 
   .mr-md-5,
 .mx-md-5 {
-    margin-right: 3rem !important;
+    margin-right: 2rem !important;
   }
 
   .mb-md-5,
 .my-md-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .ml-md-5,
 .mx-md-5 {
-    margin-left: 3rem !important;
+    margin-left: 2rem !important;
   }
 
   .p-md-0 {
@@ -8778,27 +8767,27 @@ button.bg-dark:focus {
   }
 
   .p-md-5 {
-    padding: 3rem !important;
+    padding: 2rem !important;
   }
 
   .pt-md-5,
 .py-md-5 {
-    padding-top: 3rem !important;
+    padding-top: 2rem !important;
   }
 
   .pr-md-5,
 .px-md-5 {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
 
   .pb-md-5,
 .py-md-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2rem !important;
   }
 
   .pl-md-5,
 .px-md-5 {
-    padding-left: 3rem !important;
+    padding-left: 2rem !important;
   }
 
   .m-md-n1 {
@@ -8898,27 +8887,27 @@ button.bg-dark:focus {
   }
 
   .m-md-n5 {
-    margin: -3rem !important;
+    margin: -2rem !important;
   }
 
   .mt-md-n5,
 .my-md-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2rem !important;
   }
 
   .mr-md-n5,
 .mx-md-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2rem !important;
   }
 
   .mb-md-n5,
 .my-md-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2rem !important;
   }
 
   .ml-md-n5,
 .mx-md-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2rem !important;
   }
 
   .m-md-auto {
@@ -9067,27 +9056,27 @@ button.bg-dark:focus {
   }
 
   .m-lg-5 {
-    margin: 3rem !important;
+    margin: 2rem !important;
   }
 
   .mt-lg-5,
 .my-lg-5 {
-    margin-top: 3rem !important;
+    margin-top: 2rem !important;
   }
 
   .mr-lg-5,
 .mx-lg-5 {
-    margin-right: 3rem !important;
+    margin-right: 2rem !important;
   }
 
   .mb-lg-5,
 .my-lg-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .ml-lg-5,
 .mx-lg-5 {
-    margin-left: 3rem !important;
+    margin-left: 2rem !important;
   }
 
   .p-lg-0 {
@@ -9211,27 +9200,27 @@ button.bg-dark:focus {
   }
 
   .p-lg-5 {
-    padding: 3rem !important;
+    padding: 2rem !important;
   }
 
   .pt-lg-5,
 .py-lg-5 {
-    padding-top: 3rem !important;
+    padding-top: 2rem !important;
   }
 
   .pr-lg-5,
 .px-lg-5 {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
 
   .pb-lg-5,
 .py-lg-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2rem !important;
   }
 
   .pl-lg-5,
 .px-lg-5 {
-    padding-left: 3rem !important;
+    padding-left: 2rem !important;
   }
 
   .m-lg-n1 {
@@ -9331,27 +9320,27 @@ button.bg-dark:focus {
   }
 
   .m-lg-n5 {
-    margin: -3rem !important;
+    margin: -2rem !important;
   }
 
   .mt-lg-n5,
 .my-lg-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2rem !important;
   }
 
   .mr-lg-n5,
 .mx-lg-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2rem !important;
   }
 
   .mb-lg-n5,
 .my-lg-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2rem !important;
   }
 
   .ml-lg-n5,
 .mx-lg-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2rem !important;
   }
 
   .m-lg-auto {
@@ -9500,27 +9489,27 @@ button.bg-dark:focus {
   }
 
   .m-xl-5 {
-    margin: 3rem !important;
+    margin: 2rem !important;
   }
 
   .mt-xl-5,
 .my-xl-5 {
-    margin-top: 3rem !important;
+    margin-top: 2rem !important;
   }
 
   .mr-xl-5,
 .mx-xl-5 {
-    margin-right: 3rem !important;
+    margin-right: 2rem !important;
   }
 
   .mb-xl-5,
 .my-xl-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .ml-xl-5,
 .mx-xl-5 {
-    margin-left: 3rem !important;
+    margin-left: 2rem !important;
   }
 
   .p-xl-0 {
@@ -9644,27 +9633,27 @@ button.bg-dark:focus {
   }
 
   .p-xl-5 {
-    padding: 3rem !important;
+    padding: 2rem !important;
   }
 
   .pt-xl-5,
 .py-xl-5 {
-    padding-top: 3rem !important;
+    padding-top: 2rem !important;
   }
 
   .pr-xl-5,
 .px-xl-5 {
-    padding-right: 3rem !important;
+    padding-right: 2rem !important;
   }
 
   .pb-xl-5,
 .py-xl-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 2rem !important;
   }
 
   .pl-xl-5,
 .px-xl-5 {
-    padding-left: 3rem !important;
+    padding-left: 2rem !important;
   }
 
   .m-xl-n1 {
@@ -9764,27 +9753,27 @@ button.bg-dark:focus {
   }
 
   .m-xl-n5 {
-    margin: -3rem !important;
+    margin: -2rem !important;
   }
 
   .mt-xl-n5,
 .my-xl-n5 {
-    margin-top: -3rem !important;
+    margin-top: -2rem !important;
   }
 
   .mr-xl-n5,
 .mx-xl-n5 {
-    margin-right: -3rem !important;
+    margin-right: -2rem !important;
   }
 
   .mb-xl-n5,
 .my-xl-n5 {
-    margin-bottom: -3rem !important;
+    margin-bottom: -2rem !important;
   }
 
   .ml-xl-n5,
 .mx-xl-n5 {
-    margin-left: -3rem !important;
+    margin-left: -2rem !important;
   }
 
   .m-xl-auto {
@@ -10014,7 +10003,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: #212529 !important;
+  color: #1e1e1e !important;
 }
 
 .text-muted {
@@ -13409,6 +13398,53 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
+/*
+BUTTONS
+*/
+.btn-outline-primary:hover {
+  color: #1e1e1e !important;
+  background-color: #fafafa !important;
+  text-decoration: none;
+}
+
+.btn-outline-secondary:hover {
+  color: #fafafa !important;
+  background-color: #1e1e1e !important;
+  text-decoration: none;
+}
+
+/*
+UL
+*/
+ul {
+  list-style-type: square;
+}
+
+/*
+NAVBAR
+*/
+.primarynavlinks {
+  color: #fafafa;
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
 .has-blue-color,
 .has-blue-color:visited {
   color: #007bff;
@@ -13723,8 +13759,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .wp-block-buttons .wp-block-button .wp-block-button__link {
-  padding: 0.375rem 0.75rem;
-  font-size: 0.9375rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 0;
 }

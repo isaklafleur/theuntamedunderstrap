@@ -1,0 +1,15 @@
+{
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "printWidth": 80,
+  "semi": true,
+  "singleQuote": false,
+  "htmlWhitespaceSensitivity": "css",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}

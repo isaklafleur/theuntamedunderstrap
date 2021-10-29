@@ -2,52 +2,8 @@
  font-family: 'theuntamed_011';
      src: url('../fonts/THEUNTAMED_011/THEUNTAMED011-Regular.woff') format('woff');
      src: url("../fonts/THEUNTAMED_011/THEUNTAMED011-Regular.woff2") format('woff2');
-     font-weight: 300;
      font-display: swap;
-     font-size: 15px;
  }
- 
-/*
-@font-face {
-    font-family: 'theuntamed_011';
-    src: url('../fonts/THEUNTAMED_011/THEUNTAMED011-Bold.woff') format('woff');
-    src: url('../fonts/THEUNTAMED_011/THEUNTAMED011-Bold.woff2') format('woff2');
-    font-weight: bold;
-    font-display: swap;
-}
-*/
-
- // @font-face {
-//     font-family: 'theuntamed_009';
-//     src: url('../fonts/THEUNTAMED_009/THEUNTAMED009-Bold.woff2') format('woff2'), url('fonts/THEUNTAMED_009/THEUNTAMED009-Bold.woff') format('woff');
-//     font-weight: bold;
-//     font-style: normal;
-//     font-display: swap;
-// }
-
-// @font-face {
-//     font-family: 'theuntamed_009';
-//     src: url('fonts/THEUNTAMED_009/THEUNTAMED009-Light.woff2') format('woff2'), url('fonts/THEUNTAMED_009/THEUNTAMED009-Light.woff') format('woff');
-//     font-weight: 300;
-//     font-style: normal;
-//     font-display: swap;
-// }
-
-// @font-face {
-//     font-family: 'theuntamed_009';
-//     src: url('fonts/THEUNTAMED_009/THEUNTAMED009-Medium.woff2') format('woff2'), url('fonts/THEUNTAMED_009/THEUNTAMED009-Medium.woff') format('woff');
-//     font-weight: 500;
-//     font-style: normal;
-//     font-display: swap;
-// }
-
-// @font-face {
-//     font-family: 'theuntamed_009';
-//     src: url('fonts/THEUNTAMED_009/THEUNTAMED009-Regular.woff2') format('woff2'), url('fonts/THEUNTAMED_009/THEUNTAMED009-Regular.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-//     font-display: swap;
-// }
 
 @import "theme/child_theme_variables";                   // <------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
 @import "assets/bootstrap4/bootstrap";                             // <------- Loads Bootstrap4

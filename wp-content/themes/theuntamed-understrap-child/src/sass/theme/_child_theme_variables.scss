@@ -2,19 +2,65 @@
 // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
 // Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
 
-
 // COLORS
-$theuntameddark:#1e1e1e;// Thats a sample how you could change a BootStrap variable.
+$theuntameddark: #1e1e1e;
 $theuntamedghostwhite: #fafafa;
-$primary: $theuntameddark;  // Once we've changed the value, we'll also make it the primary brand color.
+$theuntamedcremedelacreme: #f3f1ee;
+$primary: $theuntameddark; // Once we've changed the value, we'll also make it the primary brand color.
 $secondary: $theuntamedghostwhite;
-$body-bg: $theuntamedghostwhite;
+$body-bg: $theuntamedcremedelacreme;
+$body-color: $theuntameddark;
 
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25,
+    ),
+    2: (
+      $spacer * 0.5,
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5,
+    ),
+    5: (
+      $spacer * 2,
+    ),
+  ),
+  $spacers
+);
 
 // FONTS
 $font-family-base: "theuntamed_011", sans-serif;
-$btn-font-size: 15px;
+$font-size-base: 1rem;
 
+$h1-font-size: $font-size-base * 2;
+$h2-font-size: $font-size-base * 1.5;
 
+//
 // BUTTONS
 $btn-border-radius: 0;
+$btn-padding-x: 1rem;
+$btn-padding-y: 0.6rem;
+
+// LINKS
+$link-color: $primary;
+$link-hover-color: none;
+$link-hover-decoration: none;
+
+// CHECKBOXES
+
+// INPUT FIELD
+
+// RADIO BUTTON
+
+//

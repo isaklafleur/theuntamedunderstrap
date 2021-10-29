@@ -22,9 +22,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #1e1e1e;
   text-align: left;
-  background-color: #fafafa;
+  background-color: #f3f1ee;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -122,8 +122,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: black;
-  text-decoration: underline;
+  color: none;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -349,7 +349,7 @@ template {
 .table, .wp-block-table table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #212529;
+  color: #1e1e1e;
 }
 .table th, .wp-block-table table th,
 .table td,
@@ -397,7 +397,7 @@ template {
 }
 
 .table-hover tbody tr:hover {
-  color: #212529;
+  color: #1e1e1e;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -667,7 +667,7 @@ template {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fafafa;
+  background-color: #f3f1ee;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -696,11 +696,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h3, .h3 {
@@ -1117,8 +1117,8 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .wp-block-buttons .wp-block-button .wp-block-button__link {
-  padding: 0.375rem 0.75rem;
-  font-size: 0.9375rem;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
   line-height: 1.5;
   border-radius: 0;
 }
@@ -1131,7 +1131,7 @@ body.understrap-no-sidebar .wp-block-cover.alignwide {
 }
 
 .editor-post-title .editor-post-title__input {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 

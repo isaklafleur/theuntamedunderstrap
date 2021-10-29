@@ -8,8 +8,7 @@ wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
-!wp-content/themes/theuntamed-understrap-child/css/
-!wp-content/themes/theuntamed-understrap-child/js/
+
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
 wp-content/themes/*
@@ -58,6 +57,9 @@ Thumbs.db
 *.tar
 *.zip
 
+**/theuntamed-understrap-child/js/
+**/theuntamed-understrap-child/css/
+
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
@@ -69,6 +71,7 @@ Thumbs.db
 !README.md
 !CHANGELOG.md
 !composer.json
+!.prettierrc
 
 # track these themes
 !wp-content/themes/understrap/

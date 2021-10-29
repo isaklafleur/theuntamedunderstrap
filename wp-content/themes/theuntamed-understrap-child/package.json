@@ -58,6 +58,7 @@
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "postcss-understrap-palette-generator": "git+https://github.com/bacoords/postcss-understrap-palette-generator.git",
+    "prettier": "2.4.1",
     "rollup": "^2.56.2",
     "sass": "^1.38.1",
     "understrap": "github:understrap/understrap#develop"
