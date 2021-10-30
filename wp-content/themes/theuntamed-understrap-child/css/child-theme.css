@@ -5,6 +5,21 @@
   src: url("../fonts/THEUNTAMED_011/THEUNTAMED011-Regular.woff2") format("woff2");
   font-display: swap;
 }
+body.page-template-home-template ._hm_banner_imgwpr {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: bottom;
+  object-position: bottom;
+}
+body.page-template-home-template ._hm_banner {
+  position: relative;
+}
+body.page-template-home-template img {
+  max-width: 100%;
+}
+
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -2057,7 +2072,7 @@ select.form-control:focus::-ms-value, .widget_categories select:focus::-ms-value
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -2096,9 +2111,9 @@ select.form-control:focus::-ms-value, .widget_categories select:focus::-ms-value
 .form-control-lg {
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 
 select.form-control[size], .widget_categories select[size],
@@ -3534,9 +3549,9 @@ input[type=button].btn-block {
 .woocommerce-info .input-group-lg > .input-group-append > a.button,
 .woocommerce-notices-wrapper .woocommerce-message .input-group-lg > .input-group-append > a.button {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 
 .input-group-sm > .form-control:not(textarea), .widget_categories .input-group-sm > select:not(textarea),
@@ -3790,7 +3805,7 @@ input[type=button].btn-block {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .custom-file {
@@ -13399,8 +13414,13 @@ figure.woocommerce-product-gallery__wrapper {
 }
 
 /*
-BUTTONS
+FORMS
 */
+.form-control:focus, .widget_categories select:focus,
+.widget_archive select:focus {
+  box-shadow: none;
+}
+
 .btn-outline-primary:hover {
   color: #1e1e1e !important;
   background-color: #fafafa !important;
@@ -13411,6 +13431,27 @@ BUTTONS
   color: #fafafa !important;
   background-color: #1e1e1e !important;
   text-decoration: none;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: white;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='black' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+
+.countrylist .dropdown-menu {
+  background-color: transparent !important;
+}
+
+select {
+  border: 0 !important;
+  background-color: transparent !important;
+}
+
+select option {
+  background-color: transparent !important;
 }
 
 /*

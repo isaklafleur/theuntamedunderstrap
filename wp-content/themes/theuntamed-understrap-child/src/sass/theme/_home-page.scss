@@ -1,0 +1,14 @@
+body.page-template-home-template {
+  ._hm_banner_imgwpr {
+    width: 100%;
+    height: calc(100vh);
+    object-fit: cover;
+    object-position: bottom;
+  }
+  ._hm_banner {
+    position: relative;
+  }
+  img {
+    max-width: 100%;
+  }
+}

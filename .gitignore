@@ -57,9 +57,6 @@ Thumbs.db
 *.tar
 *.zip
 
-**/theuntamed-understrap-child/js/
-**/theuntamed-understrap-child/css/
-
 # -------------------------
 # BEGIN Whitelisted Files
 # -------------------------
