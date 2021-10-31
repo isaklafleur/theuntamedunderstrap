@@ -30,10 +30,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
         <!-- ******************* The Navbar Area ******************* -->
+
         <div class="navbar smart-scroll d-flex justify-content-between align-items-center bg-primary">
             <div class="p-3"><a href="#" class="primarynavlinks">MENU+</a></div>
-            <div class="p-3"><img src="https://uploads-ssl.webflow.com/615b085387c00df1534c8d44/6166e64aed05c62b2e51f093_The_Untamed_Logo_210705_white-p-500.png" class="p-0" alt="The Untamed Logo"
-                    width="110" height="46"></div>
+            <div class="p-3"><img src="https://uploads-ssl.webflow.com/615b085387c00df1534c8d44/6166e64aed05c62b2e51f093_The_Untamed_Logo_210705_white-p-500.png" alt="The Untamed Logo" width="110"
+                    height="46"></div>
             <div class="p-3"><a href="#" class="primarynavlinks">ACCOUNT</a> <a href="#" class="primarynavlinks pl-3">BAG 00</a></div>
         </div>
+
         <!-- #wrapper-navbar end -->

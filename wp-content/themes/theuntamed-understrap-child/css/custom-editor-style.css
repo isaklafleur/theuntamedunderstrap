@@ -337,6 +337,10 @@ template {
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --theuntameddark-color: #1e1e1e;
+  --theuntamedghostwhite-color: #fafafa;
+  --theuntamedcremedelacreme-color: #f3f1ee;
+  --theuntamedlighbrown-color: #d3cbc1;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -559,6 +563,86 @@ template {
 .table-hover .table-dark:hover > td,
 .table-hover .table-dark:hover > th {
   background-color: #b9bbbe;
+}
+
+.table-theuntameddark-color,
+.table-theuntameddark-color > th,
+.table-theuntameddark-color > td {
+  background-color: silver;
+}
+.table-theuntameddark-color th,
+.table-theuntameddark-color td,
+.table-theuntameddark-color thead th,
+.table-theuntameddark-color tbody + tbody {
+  border-color: #8a8a8a;
+}
+
+.table-hover .table-theuntameddark-color:hover {
+  background-color: #b3b3b3;
+}
+.table-hover .table-theuntameddark-color:hover > td,
+.table-hover .table-theuntameddark-color:hover > th {
+  background-color: #b3b3b3;
+}
+
+.table-theuntamedghostwhite-color,
+.table-theuntamedghostwhite-color > th,
+.table-theuntamedghostwhite-color > td {
+  background-color: #fefefe;
+}
+.table-theuntamedghostwhite-color th,
+.table-theuntamedghostwhite-color td,
+.table-theuntamedghostwhite-color thead th,
+.table-theuntamedghostwhite-color tbody + tbody {
+  border-color: #fcfcfc;
+}
+
+.table-hover .table-theuntamedghostwhite-color:hover {
+  background-color: #f1f1f1;
+}
+.table-hover .table-theuntamedghostwhite-color:hover > td,
+.table-hover .table-theuntamedghostwhite-color:hover > th {
+  background-color: #f1f1f1;
+}
+
+.table-theuntamedcremedelacreme-color,
+.table-theuntamedcremedelacreme-color > th,
+.table-theuntamedcremedelacreme-color > td {
+  background-color: #fcfbfa;
+}
+.table-theuntamedcremedelacreme-color th,
+.table-theuntamedcremedelacreme-color td,
+.table-theuntamedcremedelacreme-color thead th,
+.table-theuntamedcremedelacreme-color tbody + tbody {
+  border-color: #f9f8f6;
+}
+
+.table-hover .table-theuntamedcremedelacreme-color:hover {
+  background-color: #f2eeea;
+}
+.table-hover .table-theuntamedcremedelacreme-color:hover > td,
+.table-hover .table-theuntamedcremedelacreme-color:hover > th {
+  background-color: #f2eeea;
+}
+
+.table-theuntamedlighbrown-color,
+.table-theuntamedlighbrown-color > th,
+.table-theuntamedlighbrown-color > td {
+  background-color: #f3f0ee;
+}
+.table-theuntamedlighbrown-color th,
+.table-theuntamedlighbrown-color td,
+.table-theuntamedlighbrown-color thead th,
+.table-theuntamedlighbrown-color tbody + tbody {
+  border-color: #e8e4df;
+}
+
+.table-hover .table-theuntamedlighbrown-color:hover {
+  background-color: #e8e3df;
+}
+.table-hover .table-theuntamedlighbrown-color:hover > td,
+.table-hover .table-theuntamedlighbrown-color:hover > th {
+  background-color: #e8e3df;
 }
 
 .table-active,
@@ -1011,6 +1095,46 @@ mark,
 .has-dark-background-color {
   background-color: #343a40;
   border-color: #343a40;
+}
+
+.has-theuntameddark-color-color,
+.has-theuntameddark-color-color:visited {
+  color: #1e1e1e;
+}
+
+.has-theuntameddark-color-background-color {
+  background-color: #1e1e1e;
+  border-color: #1e1e1e;
+}
+
+.has-theuntamedghostwhite-color-color,
+.has-theuntamedghostwhite-color-color:visited {
+  color: #fafafa;
+}
+
+.has-theuntamedghostwhite-color-background-color {
+  background-color: #fafafa;
+  border-color: #fafafa;
+}
+
+.has-theuntamedcremedelacreme-color-color,
+.has-theuntamedcremedelacreme-color-color:visited {
+  color: #f3f1ee;
+}
+
+.has-theuntamedcremedelacreme-color-background-color {
+  background-color: #f3f1ee;
+  border-color: #f3f1ee;
+}
+
+.has-theuntamedlighbrown-color-color,
+.has-theuntamedlighbrown-color-color:visited {
+  color: #d3cbc1;
+}
+
+.has-theuntamedlighbrown-color-background-color {
+  background-color: #d3cbc1;
+  border-color: #d3cbc1;
 }
 
 figure.wp-block-image {

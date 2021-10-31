@@ -6,6 +6,15 @@
 $theuntameddark: #1e1e1e;
 $theuntamedghostwhite: #fafafa;
 $theuntamedcremedelacreme: #f3f1ee;
+$theuntamedlighbrown: #d3cbc1;
+
+$theme-colors: (
+  "theuntameddark-color": $theuntameddark,
+  "theuntamedghostwhite-color": $theuntamedghostwhite,
+  "theuntamedcremedelacreme-color": $theuntamedcremedelacreme,
+  "theuntamedlighbrown-color": $theuntamedlighbrown,
+);
+
 $primary: $theuntameddark; // Once we've changed the value, we'll also make it the primary brand color.
 $secondary: $theuntamedghostwhite;
 $body-bg: $theuntamedcremedelacreme;
