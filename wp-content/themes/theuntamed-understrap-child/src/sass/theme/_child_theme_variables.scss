@@ -45,12 +45,14 @@ $font-size-base: 1rem;
 
 $h1-font-size: $font-size-base * 2;
 $h2-font-size: $font-size-base * 1.5;
-
+$h3-font-size: $font-size-base;
 // FORM FIELDS
 
 $input-border-radius-lg: 0;
 $input-border-width-lg: 0;
 $input-font-size-lg: 1rem;
+
+$custom-checkbox-indicator-border-radius: 0;
 
 // BUTTONS
 $btn-border-radius: 0;
@@ -61,11 +63,3 @@ $btn-padding-y: 0.6rem;
 $link-color: $primary;
 $link-hover-color: none;
 $link-hover-decoration: none;
-
-// CHECKBOXES
-
-// INPUT FIELD
-
-// RADIO BUTTON
-
-//

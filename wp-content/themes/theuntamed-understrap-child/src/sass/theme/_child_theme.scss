@@ -1,4 +1,5 @@
 ///////////////////////////////////////////////////
+
 /*
 FORMS
 */
@@ -9,7 +10,7 @@ FORMS
 
 .btn-outline-primary:hover {
   color: $primary !important;
-  background-color: $secondary !important;
+  background-color: $theuntamedcremedelacreme !important;
   text-decoration: none;
 }
 
@@ -19,24 +20,14 @@ FORMS
   text-decoration: none;
 }
 
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: white;
-}
-
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='black' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
-}
-
 select.countrylist {
-  background-color: transparent !important;
+  background-color: $primary !important;
+  border: 0 !important;
 }
 
-select. {
+select.countrylist option {
+  background-color: $primary !important;
   border: 0 !important;
-  background-color: transparent !important;
-}
-select option {
-  background-color: transparent !important;
 }
 
 ///////////////////////////////////////////////////
@@ -73,4 +64,14 @@ NAVBAR
 .scrolled-up {
   transform: translateY(0);
   transition: all 0.3s ease-in-out;
+}
+
+//////////////////////////////////////////////////////////////////////
+
+.imagewrapper {
+  background: #f8f8f8;
+  border: 1px solid #f3f1ee;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;
 }

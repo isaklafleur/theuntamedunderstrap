@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 ?>
-<div class="container-fluid p-5">
+<div class="container-fluid">
     <div class="row">
         <div class="col-sm p-3">
             <button type="button" class="btn btn-primary mt-5 btn-block shadow-none text-uppercase">Button Primary</button>
@@ -34,11 +34,9 @@ get_header();
         </div>
         <div class="col-sm p-3">
             <h1 class="text-uppercase">DANSE DaS FAERIES (h1 tag)</h1>
-            <br>
             <h2 class="text-uppercase">DANSE DaS FAERIES (h2 tag)</h2>
-            <br>
+            <h3 class="text-uppercase">DANSE DaS FAERIES (h3 tag)</h3>
             <a href="" class="text-uppercase">Example Link</a>
-            <br>
             <ul>
                 <li>Coffee</li>
                 <li>Tea</li>
@@ -60,19 +58,10 @@ get_header();
                 <div class="form-group">
                     <select class="form-control form-control-lg">
                         <option selected>Choose...</option>
-                        <option>Nigeria</option>
-                        <option>Sweden</option>
-                        <option>Poland</option>
-                        <option>Spain</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <select class="form-control form-control-lg countrylist">
-                        <option selected>Choose...</option>
-                        <option>Nigeria</option>
-                        <option>Sweden</option>
-                        <option>Poland</option>
-                        <option>Spain</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
                     </select>
                 </div>
                 <div class="custom-control custom-checkbox">
@@ -82,8 +71,164 @@ get_header();
                 <button type="submit" class="btn btn-outline-secondary mt-5 btn-block shadow-none text-uppercase">Submit</button>
             </form>
         </div>
-        <div class="col-sm p-3">
+        <div class="col-sm p-3 bg-primary">
+            <div class="form-group">
+                <select class="form-control form-control-lg countrylist text-secondary">
+                    <option selected>Choose...</option>
+                    <option>Nigeria</option>
+                    <option>Sweden</option>
+                    <option>Poland</option>
+                    <option>Spain</option>
+                    <option>Nigeria</option>
+                    <option>Sweden</option>
+                    <option>Poland</option>
+                    <option>Spain</option>
+                    <option>Nigeria</option>
+                    <option>Sweden</option>
+                    <option>Poland</option>
+                    <option>Spain</option>
+                    <option>Nigeria</option>
+                    <option>Sweden</option>
+                    <option>Poland</option>
+                    <option>Spain</option>
+                    <option>Nigeria</option>
+                    <option>Sweden</option>
+                    <option>Poland</option>
+                    <option>Spain</option>
+                </select>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
 
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#">
+                        <div class="row imagewrapper">
+                            <div class="text-center"><img class="img-fluid" src="https://staging-theuntamedmultisite.kinsta.cloud/wp-content/uploads/2021/09/prd-img-1-1-300x300.png" alt=""></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h3>BEYOND NEW LIGHT BRIGHTENING FOAMING CLEANSER</h3>
+                            </div>
+                            <div class="col-4 text-right">
+                                <span>€28</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
